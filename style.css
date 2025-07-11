@@ -1,0 +1,68 @@
+/* General Body Styling */
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center Heading */
+h1 {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Form Elements */
+form input {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+}
+
+form button {
+  border-radius: 6px;
+}
+
+/* List Group Items */
+.list-group-item {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.list-group-item button {
+  font-size: 0.85rem;
+}
+
+/* Auth Buttons */
+#signInBtn,
+#signOutBtn {
+  min-width: 160px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Total GL Display */
+#totalGL {
+  font-weight: bold;
+  color: #198754; /* Bootstrap green */
+  font-size: 1.3rem;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  form .col-md-4,
+  form .col-md-3,
+  form .col-md-2 {
+    width: 100%;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  #signInBtn,
+  #signOutBtn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
